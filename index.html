@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz App</title>
+
+    <!-- Fontawesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="flex">
+
+    <div class="wrapper">
+        <div class="quiz-container">
+
+            <div class="quiz-head">
+
+                <h1 class="quiz-title">Simple Quiz</h1>
+
+                <div class="quiz-score flex">
+                    <span id="correct-score"></span>/
+                    <span id="total-question"></span>
+                </div>
+            </div>
+
+            <div class="quiz-body">
+                <h2 class="quiz-question" id="question">
+                    <!-- What is th efull forj -->
+                    <br>
+                    <span class="category"></span>
+                </h2>
+
+                <ul class="quiz-options">
+                    <!-- <li class="selected">1</li>
+                    <li class="selected">2</li>
+                    <li class="selected">3</li>
+                    <li class="selected">4</li> -->
+                </ul>
+                
+                <div id="result">
+                    <!-- result here -->
+                </div>
+            </div>
+
+            <div class="quiz-foot">
+                <button type="button" id="check-answer">Check Answer</button>
+                <button type="button" id="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
